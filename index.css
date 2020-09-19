@@ -58,6 +58,14 @@ nav{
     background-repeat: no-repeat;
     
 }
+.sponser h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: white ;
+    text-shadow: 4px 4px 4px rgba(146, 139, 140, 0.062);
+    text-align: center;
+}
+
 .sponser img{
     width: 30%;
     height: 30%;
@@ -95,13 +103,6 @@ nav{
     width: 100px;
     height: 100px;
     box-shadow: 0px 0px 10px 0px rgb(15, 15, 17);
-}
-.sponser h1{
-    font-size: 60px;
-    font-weight: bold;
-    color: white ;
-    text-shadow: 4px 4px 4px rgba(146, 139, 140, 0.062);
-    text-align: center;
 }
 .panel-heading h1{
     font-size: 50px;
