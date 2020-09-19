@@ -255,6 +255,8 @@ nav{
     }
     .col-xs-8{
         width: 600px;
+        justify-content: center;
+        text-align: justify;
 
     }
     .col-xs-4{
@@ -273,6 +275,7 @@ nav{
     .col-xs-8{
         width: 600px;
         justify-content: center;
+        text-align: justify;
 
     }
     .col-xs-4{
@@ -294,6 +297,8 @@ nav{
     }
     .col-xs-8{
         width: 300px;
+        justify-content: center;
+        text-align: justify;
 
     }
     .col-xs-4{
