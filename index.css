@@ -145,7 +145,7 @@ nav{
     color: white;
 }
 .box .btn:hover{
-    background-color: grey;
+    background-color: blue;
     color: white;
     box-shadow: 0px 0px 10px 0px black;
 }
