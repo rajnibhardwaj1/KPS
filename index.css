@@ -252,6 +252,8 @@ nav{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
     }
     .col-xs-8{
         width: 600px;
@@ -271,6 +273,8 @@ nav{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
     }
     .col-xs-8{
         width: 600px;
@@ -294,6 +298,8 @@ nav{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
     }
     .col-xs-8{
         width: 400px;
@@ -308,7 +314,7 @@ nav{
     }
     .col-xs-3{
         width: 300px;
-        margin-left: 55px;
+        margin-left: 48px;
     }
 
 
