@@ -243,3 +243,30 @@ nav{
     font-weight: 600;
     color: white;
 }
+@media (max-width:1200px){
+
+
+}
+@media(min-width:992px) and (max-width:1199px){
+    .sponser{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .col-xs-8{
+        width: 600px;
+
+    }
+    .col-xs-4{
+        width: 450px;
+        margin-left: 50px;
+        text-align: center;
+    }
+       
+}
+@media(min-width:768px) and (max-width:991px){
+
+}
+@media(min-width:768px){
+
+}
