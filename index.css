@@ -263,7 +263,7 @@ nav{
     }
     .col-xs-4{
         width: 450px;
-        margin-left: 50px;
+        justify-content: center;
         text-align: center;
     }
        
@@ -290,6 +290,8 @@ nav{
     }
     .col-xs-3{
         width: 768px;
+        justify-content: center;
+        text-align: center;
     }
 
 }
@@ -309,12 +311,14 @@ nav{
     }
     .col-xs-4{
         width: 300px;
-        margin-left: 30px;
+        justify-content: center;
         text-align: center;
     }
     .col-xs-3{
         width: 300px;
-        margin-left: 48px;
+        justify-content: center;
+        text-align: center;
+        
     }
 
 
