@@ -1,0 +1,245 @@
+
+nav{
+    margin-bottom: 0px;
+}
+
+#slider{
+    overflow: hidden;
+    margin-top: 0px;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img{
+    box-shadow: 10px 10px 10px 10px black;
+    width:  20%;
+    float: left;
+    height: 500px;
+}
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+.sponser{
+    background-color: rgb(77, 84, 126);
+    width:100%;
+    height: 40%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.sponser img{
+    width: 30%;
+    height: 30%;
+    margin: auto;
+}
+.logo-1 img{
+    height: 100px;
+    margin: 30px 90px;
+    border-radius: 50%;
+    width: 100px;
+}
+.logo-2 img{
+    height: 100px;
+    margin: 30px 100px;
+    border-radius: 50%;
+    width: 100px;
+}
+.logo-3 img{
+    height: 100px;
+    margin: 30px 90px;
+    border-radius: 50%;
+    width: 100px;
+}
+.logo-1 img:hover{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 10px 0px rgb(15, 15, 17);
+}
+.logo-2 img:hover{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 10px 0px rgb(15, 15, 17);
+}
+.logo-3 img:hover{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 10px 0px rgb(15, 15, 17);
+}
+.sponser h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: white ;
+    text-shadow: 4px 4px 4px rgba(146, 139, 140, 0.062);
+    text-align: center;
+}
+.panel-heading h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: gray ;
+    text-shadow: 4px 4px 4px rgb(20, 8, 10);
+    /* text-align: center; */
+    
+}
+.panel-heading h3{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(39, 173, 214) ;
+    text-shadow: 2px 2px 2px rgb(20, 8, 10);    
+}
+.panel-body p{
+    font-family: Merienda;
+}
+.panel-body #btn{
+    background-color: blue;
+    color: white;
+    width: 30%;
+}
+.panel-body #btn:hover{
+    background-color: rgb(16, 135, 182);
+    color: white;
+    width: 30%;
+}
+.col-xs-4{
+    box-shadow: 0px 0px 20px 0px black;
+    text-align: center;
+    margin:60px 0px;
+    padding-bottom: 20px;
+}
+.panel-body .box{
+    text-align: center;
+}
+.box .btn{
+    background-color: black;
+    color: white;
+}
+.box .btn:hover{
+    background-color: grey;
+    color: white;
+    box-shadow: 0px 0px 10px 0px black;
+}
+.box img{
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+}
+.box img:hover{
+    box-shadow: 0px 0px 20px 0px black;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.panel-heading h2{
+    color: black;
+    font-weight: bold;
+    font-family: Merienda;
+}
+ #our h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(70, 24, 24);
+    text-shadow: 2px 2px 2px rgb(131, 83, 83);
+}
+.panel-body p{
+    color: rgb(32, 32, 37);
+}
+#Myid li:hover{
+    background-color: grey;
+
+}
+#footer-area{
+    padding: 90px 0px 60px 0px;
+    background: #262626;
+    color: #fff;
+}
+.footer-social{
+    margin-top: 20px;
+
+}
+.single-footer h3{
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #fafafa;
+    font-family: Merienda;
+
+}
+.link-area li{
+    padding: 5px 5px 5px 0px;
+    list-style: none;
+}
+.link-area li a{
+    text-transform: capitalize;
+    color: #ddd;
+    font-family: Merienda;
+}
+.link-area li a i{
+    margin-right: 10px;
+    color: #ddd;
+}
+.link-area{
+    padding: 0;
+}
+.single-footer p{
+    font-family: Merienda;
+}
+.footer-social li a{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background: #000;
+}
+.footer-social li a i{
+    color: #fff;
+    padding: 8px;
+}
+.widget li{
+    float: left;
+    width :50%;
+}
+.widget li a img{
+    margin-bottom: -10px;
+    width: 100%;
+    height: 70px;
+}
+.copyright-area{
+    background: #000;
+    padding: 30px 0;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.copyright-area p{
+    font-weight: 600;
+    color: white;
+}
